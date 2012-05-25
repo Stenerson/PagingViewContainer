@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class PVCContainer;
+
 @interface PVCViewController : UIViewController
 
 @end
