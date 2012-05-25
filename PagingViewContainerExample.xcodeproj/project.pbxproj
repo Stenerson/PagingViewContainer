@@ -21,7 +21,6 @@
 		C95FBE67156FCE06007BB1C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95FBE65156FCE06007BB1C1 /* InfoPlist.strings */; };
 		C95FBE6A156FCE06007BB1C1 /* PagingViewContainerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FBE69156FCE06007BB1C1 /* PagingViewContainerExampleTests.m */; };
 		C95FBE75156FD035007BB1C1 /* PVCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FBE74156FD035007BB1C1 /* PVCContainer.m */; };
-		C985AF3E156FF047006B4715 /* PVCContainer.h in Sources */ = {isa = PBXBuildFile; fileRef = C95FBE73156FD035007BB1C1 /* PVCContainer.h */; };
 		C985AF3F156FF047006B4715 /* PVCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FBE74156FD035007BB1C1 /* PVCContainer.m */; };
 /* End PBXBuildFile section */
 
@@ -266,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C985AF3E156FF047006B4715 /* PVCContainer.h in Sources */,
 				C985AF3F156FF047006B4715 /* PVCContainer.m in Sources */,
 				C95FBE4B156FCE06007BB1C1 /* main.m in Sources */,
 				C95FBE4F156FCE06007BB1C1 /* PVCAppDelegate.m in Sources */,
