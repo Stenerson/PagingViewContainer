@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 
 
-@interface PVCContainer : UIView 
+@interface PVCContainer : UIView <UIScrollViewDelegate> {
+    BOOL pageControlUsed;
+}
 
 @property (nonatomic, retain) NSArray *pages;
 @property (nonatomic, weak) UIView *currentPage;
+@property (nonatomic, retain) UIScrollView *scrollView;
 @property NSUInteger currentPageIndex;
 @property float animationDuration;
 
@@ -20,9 +23,9 @@
 @property (nonatomic, retain) UIPageControl *pageControl;
 
 
-//init
--(id)initWithFrame:(CGRect)frame andPages:(NSArray*)views;
-
+//inits
+-(id) initWithFrame:(CGRect)frame andPages:(NSArray*)views;
+-(id) initScrollWithFrame:(CGRect)frame andPages:(NSArray*)views;
 
 
 @end
