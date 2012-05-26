@@ -35,22 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C95FBE3A156FCE06007BB1C1 /* PagingViewContainerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingViewContainerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95FBE3A156FCE06007BB1C1 /* PagingViewContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingViewContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95FBE3E156FCE06007BB1C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C95FBE40156FCE06007BB1C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C95FBE42156FCE06007BB1C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C95FBE46156FCE06007BB1C1 /* PagingViewContainerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingViewContainerExample-Info.plist"; sourceTree = "<group>"; };
+		C95FBE46156FCE06007BB1C1 /* PagingViewContainer-Info.plist */ = {isa = PBXFileReference; path = "PagingViewContainer-Info.plist"; sourceTree = "<group>"; };
 		C95FBE48156FCE06007BB1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C95FBE4A156FCE06007BB1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C95FBE4C156FCE06007BB1C1 /* PagingViewContainerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagingViewContainerExample-Prefix.pch"; sourceTree = "<group>"; };
+		C95FBE4C156FCE06007BB1C1 /* PagingViewContainer-Prefix.pch */ = {isa = PBXFileReference; path = "PagingViewContainer-Prefix.pch"; sourceTree = "<group>"; };
 		C95FBE4D156FCE06007BB1C1 /* PVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVCAppDelegate.h; sourceTree = "<group>"; };
 		C95FBE4E156FCE06007BB1C1 /* PVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVCAppDelegate.m; sourceTree = "<group>"; };
 		C95FBE51156FCE06007BB1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C95FBE53156FCE06007BB1C1 /* PVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVCViewController.h; sourceTree = "<group>"; };
 		C95FBE54156FCE06007BB1C1 /* PVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVCViewController.m; sourceTree = "<group>"; };
-		C95FBE5B156FCE06007BB1C1 /* PagingViewContainerExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingViewContainerExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95FBE5B156FCE06007BB1C1 /* PagingViewContainerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingViewContainerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95FBE5C156FCE06007BB1C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C95FBE64156FCE06007BB1C1 /* PagingViewContainerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingViewContainerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		C95FBE64156FCE06007BB1C1 /* PagingViewContainerTests-Info.plist */ = {isa = PBXFileReference; path = "PagingViewContainerTests-Info.plist"; sourceTree = "<group>"; };
 		C95FBE66156FCE06007BB1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C95FBE68156FCE06007BB1C1 /* PagingViewContainerExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagingViewContainerExampleTests.h; sourceTree = "<group>"; };
 		C95FBE69156FCE06007BB1C1 /* PagingViewContainerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagingViewContainerExampleTests.m; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		C95FBE2F156FCE05007BB1C1 = {
 			isa = PBXGroup;
 			children = (
-				C95FBE44156FCE06007BB1C1 /* PagingViewContainerExample */,
-				C95FBE62156FCE06007BB1C1 /* PagingViewContainerExampleTests */,
+				C95FBE44156FCE06007BB1C1 /* PagingViewContainer */,
+				C95FBE62156FCE06007BB1C1 /* PagingViewContainerTests */,
 				C95FBE3D156FCE06007BB1C1 /* Frameworks */,
 				C95FBE3B156FCE06007BB1C1 /* Products */,
 			);
@@ -95,8 +95,8 @@
 		C95FBE3B156FCE06007BB1C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C95FBE3A156FCE06007BB1C1 /* PagingViewContainerExample.app */,
-				C95FBE5B156FCE06007BB1C1 /* PagingViewContainerExampleTests.octest */,
+				C95FBE3A156FCE06007BB1C1 /* PagingViewContainer.app */,
+				C95FBE5B156FCE06007BB1C1 /* PagingViewContainerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C95FBE44156FCE06007BB1C1 /* PagingViewContainerExample */ = {
+		C95FBE44156FCE06007BB1C1 /* PagingViewContainer */ = {
 			isa = PBXGroup;
 			children = (
 				C95FBE4D156FCE06007BB1C1 /* PVCAppDelegate.h */,
@@ -124,34 +124,36 @@
 				C95FBE54156FCE06007BB1C1 /* PVCViewController.m */,
 				C95FBE45156FCE06007BB1C1 /* Supporting Files */,
 			);
+			name = PagingViewContainer;
 			path = PagingViewContainerExample;
 			sourceTree = "<group>";
 		};
 		C95FBE45156FCE06007BB1C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C95FBE46156FCE06007BB1C1 /* PagingViewContainerExample-Info.plist */,
+				C95FBE46156FCE06007BB1C1 /* PagingViewContainer-Info.plist */,
 				C95FBE47156FCE06007BB1C1 /* InfoPlist.strings */,
 				C95FBE4A156FCE06007BB1C1 /* main.m */,
-				C95FBE4C156FCE06007BB1C1 /* PagingViewContainerExample-Prefix.pch */,
+				C95FBE4C156FCE06007BB1C1 /* PagingViewContainer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C95FBE62156FCE06007BB1C1 /* PagingViewContainerExampleTests */ = {
+		C95FBE62156FCE06007BB1C1 /* PagingViewContainerTests */ = {
 			isa = PBXGroup;
 			children = (
 				C95FBE68156FCE06007BB1C1 /* PagingViewContainerExampleTests.h */,
 				C95FBE69156FCE06007BB1C1 /* PagingViewContainerExampleTests.m */,
 				C95FBE63156FCE06007BB1C1 /* Supporting Files */,
 			);
+			name = PagingViewContainerTests;
 			path = PagingViewContainerExampleTests;
 			sourceTree = "<group>";
 		};
 		C95FBE63156FCE06007BB1C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C95FBE64156FCE06007BB1C1 /* PagingViewContainerExampleTests-Info.plist */,
+				C95FBE64156FCE06007BB1C1 /* PagingViewContainerTests-Info.plist */,
 				C95FBE65156FCE06007BB1C1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -160,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C95FBE39156FCE06007BB1C1 /* PagingViewContainerExample */ = {
+		C95FBE39156FCE06007BB1C1 /* PagingViewContainer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C95FBE6D156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainerExample" */;
+			buildConfigurationList = C95FBE6D156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainer" */;
 			buildPhases = (
 				C95FBE36156FCE06007BB1C1 /* Sources */,
 				C95FBE37156FCE06007BB1C1 /* Frameworks */,
@@ -172,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = PagingViewContainerExample;
+			name = PagingViewContainer;
 			productName = PagingViewContainerExample;
-			productReference = C95FBE3A156FCE06007BB1C1 /* PagingViewContainerExample.app */;
+			productReference = C95FBE3A156FCE06007BB1C1 /* PagingViewContainer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C95FBE5A156FCE06007BB1C1 /* PagingViewContainerExampleTests */ = {
+		C95FBE5A156FCE06007BB1C1 /* PagingViewContainerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C95FBE70156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainerExampleTests" */;
+			buildConfigurationList = C95FBE70156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainerTests" */;
 			buildPhases = (
 				C95FBE56156FCE06007BB1C1 /* Sources */,
 				C95FBE57156FCE06007BB1C1 /* Frameworks */,
@@ -191,9 +193,9 @@
 			dependencies = (
 				C95FBE61156FCE06007BB1C1 /* PBXTargetDependency */,
 			);
-			name = PagingViewContainerExampleTests;
+			name = PagingViewContainerTests;
 			productName = PagingViewContainerExampleTests;
-			productReference = C95FBE5B156FCE06007BB1C1 /* PagingViewContainerExampleTests.octest */;
+			productReference = C95FBE5B156FCE06007BB1C1 /* PagingViewContainerTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +208,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = Techapolis;
 			};
-			buildConfigurationList = C95FBE34156FCE05007BB1C1 /* Build configuration list for PBXProject "PagingViewContainerExample" */;
+			buildConfigurationList = C95FBE34156FCE05007BB1C1 /* Build configuration list for PBXProject "PagingViewContainer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +220,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C95FBE39156FCE06007BB1C1 /* PagingViewContainerExample */,
-				C95FBE5A156FCE06007BB1C1 /* PagingViewContainerExampleTests */,
+				C95FBE39156FCE06007BB1C1 /* PagingViewContainer */,
+				C95FBE5A156FCE06007BB1C1 /* PagingViewContainerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +288,7 @@
 /* Begin PBXTargetDependency section */
 		C95FBE61156FCE06007BB1C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C95FBE39156FCE06007BB1C1 /* PagingViewContainerExample */;
+			target = C95FBE39156FCE06007BB1C1 /* PagingViewContainer */;
 			targetProxy = C95FBE60156FCE06007BB1C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -368,9 +370,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PagingViewContainerExample/PagingViewContainerExample-Prefix.pch";
-				INFOPLIST_FILE = "PagingViewContainerExample/PagingViewContainerExample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PagingViewContainerExample/PagingViewContainer-Prefix.pch";
+				INFOPLIST_FILE = "PagingViewContainerExample/PagingViewContainer-Info.plist";
+				PRODUCT_NAME = PagingViewContainer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -379,9 +381,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PagingViewContainerExample/PagingViewContainerExample-Prefix.pch";
-				INFOPLIST_FILE = "PagingViewContainerExample/PagingViewContainerExample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PagingViewContainerExample/PagingViewContainer-Prefix.pch";
+				INFOPLIST_FILE = "PagingViewContainerExample/PagingViewContainer-Info.plist";
+				PRODUCT_NAME = PagingViewContainer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -396,8 +398,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagingViewContainerExample/PagingViewContainerExample-Prefix.pch";
-				INFOPLIST_FILE = "PagingViewContainerExampleTests/PagingViewContainerExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PagingViewContainerExampleTests/PagingViewContainerTests-Info.plist";
+				PRODUCT_NAME = PagingViewContainerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -413,8 +415,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagingViewContainerExample/PagingViewContainerExample-Prefix.pch";
-				INFOPLIST_FILE = "PagingViewContainerExampleTests/PagingViewContainerExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PagingViewContainerExampleTests/PagingViewContainerTests-Info.plist";
+				PRODUCT_NAME = PagingViewContainerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -423,7 +425,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C95FBE34156FCE05007BB1C1 /* Build configuration list for PBXProject "PagingViewContainerExample" */ = {
+		C95FBE34156FCE05007BB1C1 /* Build configuration list for PBXProject "PagingViewContainer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C95FBE6B156FCE07007BB1C1 /* Debug */,
@@ -432,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C95FBE6D156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainerExample" */ = {
+		C95FBE6D156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C95FBE6E156FCE07007BB1C1 /* Debug */,
@@ -441,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C95FBE70156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainerExampleTests" */ = {
+		C95FBE70156FCE07007BB1C1 /* Build configuration list for PBXNativeTarget "PagingViewContainerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C95FBE71156FCE07007BB1C1 /* Debug */,
