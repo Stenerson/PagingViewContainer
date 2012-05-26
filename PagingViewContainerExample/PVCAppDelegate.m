@@ -45,4 +45,27 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
++ (UIView*)newViewWithTitle:(NSString *)title {
+    UIView *aView = [[UIView alloc] init];
+    //Randomly set the background color so we can see the frame bounds
+    aView.backgroundColor = [self randomColor];
+    
+    UILabel *aLabel = [[UILabel alloc] initWithFrame:CGRectMake(130, 10, 164, 30)];
+    aLabel.textColor = [UIColor blackColor];
+    aLabel.backgroundColor = [UIColor clearColor];
+    aLabel.font = [UIFont systemFontOfSize:18];    
+    aLabel.textAlignment = UITextAlignmentLeft;
+    aLabel.text = title;
+    [aView addSubview:aLabel];
+    
+    return aView;
+}
+
++ (UIColor *) randomColor {
+    CGFloat red =  (CGFloat)random()/(CGFloat)RAND_MAX;
+    CGFloat blue = (CGFloat)random()/(CGFloat)RAND_MAX;
+    CGFloat green = (CGFloat)random()/(CGFloat)RAND_MAX;
+    return [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+}
+
 @end

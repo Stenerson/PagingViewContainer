@@ -22,6 +22,8 @@
 		C95FBE6A156FCE06007BB1C1 /* PagingViewContainerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FBE69156FCE06007BB1C1 /* PagingViewContainerExampleTests.m */; };
 		C95FBE75156FD035007BB1C1 /* PVCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FBE74156FD035007BB1C1 /* PVCContainer.m */; };
 		C985AF3F156FF047006B4715 /* PVCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FBE74156FD035007BB1C1 /* PVCContainer.m */; };
+		C985AF4B157155C9006B4715 /* PVCExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C985AF4A157155C9006B4715 /* PVCExampleViewController.m */; };
+		C985AF4E15715A61006B4715 /* PVCExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C985AF4D15715A61006B4715 /* PVCExampleTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +41,10 @@
 		C95FBE3E156FCE06007BB1C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C95FBE40156FCE06007BB1C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C95FBE42156FCE06007BB1C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C95FBE46156FCE06007BB1C1 /* PagingViewContainer-Info.plist */ = {isa = PBXFileReference; path = "PagingViewContainer-Info.plist"; sourceTree = "<group>"; };
+		C95FBE46156FCE06007BB1C1 /* PagingViewContainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingViewContainer-Info.plist"; sourceTree = "<group>"; };
 		C95FBE48156FCE06007BB1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C95FBE4A156FCE06007BB1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C95FBE4C156FCE06007BB1C1 /* PagingViewContainer-Prefix.pch */ = {isa = PBXFileReference; path = "PagingViewContainer-Prefix.pch"; sourceTree = "<group>"; };
+		C95FBE4C156FCE06007BB1C1 /* PagingViewContainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagingViewContainer-Prefix.pch"; sourceTree = "<group>"; };
 		C95FBE4D156FCE06007BB1C1 /* PVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVCAppDelegate.h; sourceTree = "<group>"; };
 		C95FBE4E156FCE06007BB1C1 /* PVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVCAppDelegate.m; sourceTree = "<group>"; };
 		C95FBE51156FCE06007BB1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -50,12 +52,16 @@
 		C95FBE54156FCE06007BB1C1 /* PVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVCViewController.m; sourceTree = "<group>"; };
 		C95FBE5B156FCE06007BB1C1 /* PagingViewContainerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingViewContainerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95FBE5C156FCE06007BB1C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C95FBE64156FCE06007BB1C1 /* PagingViewContainerTests-Info.plist */ = {isa = PBXFileReference; path = "PagingViewContainerTests-Info.plist"; sourceTree = "<group>"; };
+		C95FBE64156FCE06007BB1C1 /* PagingViewContainerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingViewContainerTests-Info.plist"; sourceTree = "<group>"; };
 		C95FBE66156FCE06007BB1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C95FBE68156FCE06007BB1C1 /* PagingViewContainerExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagingViewContainerExampleTests.h; sourceTree = "<group>"; };
 		C95FBE69156FCE06007BB1C1 /* PagingViewContainerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagingViewContainerExampleTests.m; sourceTree = "<group>"; };
 		C95FBE73156FD035007BB1C1 /* PVCContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCContainer.h; sourceTree = "<group>"; };
 		C95FBE74156FD035007BB1C1 /* PVCContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCContainer.m; sourceTree = "<group>"; };
+		C985AF49157155C8006B4715 /* PVCExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCExampleViewController.h; sourceTree = "<group>"; };
+		C985AF4A157155C9006B4715 /* PVCExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCExampleViewController.m; sourceTree = "<group>"; };
+		C985AF4C15715A61006B4715 /* PVCExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCExampleTableViewController.h; sourceTree = "<group>"; };
+		C985AF4D15715A61006B4715 /* PVCExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCExampleTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 				C95FBE74156FD035007BB1C1 /* PVCContainer.m */,
 				C95FBE53156FCE06007BB1C1 /* PVCViewController.h */,
 				C95FBE54156FCE06007BB1C1 /* PVCViewController.m */,
+				C985AF49157155C8006B4715 /* PVCExampleViewController.h */,
+				C985AF4A157155C9006B4715 /* PVCExampleViewController.m */,
+				C985AF4C15715A61006B4715 /* PVCExampleTableViewController.h */,
+				C985AF4D15715A61006B4715 /* PVCExampleTableViewController.m */,
 				C95FBE45156FCE06007BB1C1 /* Supporting Files */,
 			);
 			name = PagingViewContainer;
@@ -271,6 +281,8 @@
 				C95FBE4B156FCE06007BB1C1 /* main.m in Sources */,
 				C95FBE4F156FCE06007BB1C1 /* PVCAppDelegate.m in Sources */,
 				C95FBE55156FCE06007BB1C1 /* PVCViewController.m in Sources */,
+				C985AF4B157155C9006B4715 /* PVCExampleViewController.m in Sources */,
+				C985AF4E15715A61006B4715 /* PVCExampleTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
