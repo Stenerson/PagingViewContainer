@@ -13,7 +13,7 @@ To use add PVCContainer.h and PVCContainer.m to your project and initialize like
                       ,[self newViewWithTitle:@"Three"]
                       , nil];
     
-    //init a container with the array
+    //init an animation container with the array
     PVCContainer *aContainer = [[PVCContainer alloc] 
                                   initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 154) 
                                   andPages:views];
@@ -25,12 +25,12 @@ or
     // UIScrollView method
     NSArray *views = [NSArray arrayWithObjects:
                       //newViewWithTitle just creates a simple UIView with a label
-                       [self newViewWithTitle:@"One"]  
-                      ,[self newViewWithTitle:@"Two"]
-                      ,[self newViewWithTitle:@"Three"]
+                       [self newViewWithTitle:@"Uno"]  
+                      ,[self newViewWithTitle:@"Dos"]
+                      ,[self newViewWithTitle:@"Tres"]
                       , nil];
     
-    //init a container with the array
+    //init a scroll container with the array
     PVCContainer *aContainer = [[PVCContainer alloc] 
                                   initScrollWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 154) 
                                   andPages:views];
@@ -38,7 +38,9 @@ or
     [self.view addSubview:aContainer];
     
 
-Check out the sample project for working examples.
+Check out the sample project for working examples in both a UIViewController and a UITableViewController.
 
 
-This is a work in progress and more functionality and examples (and cleaner code) will be available in the future.
+This is a work in progress/proof of concept; more functionality and examples (and better code) will be available in the future.
+
+If you have suggestions and/or improvements please fork and submit a pull request.  This is by no means optimized but I appreciate any and all feedback.
