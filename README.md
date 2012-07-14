@@ -42,6 +42,7 @@ NSArray *views = [NSArray arrayWithObjects:
 Check out the sample project for working examples in both a `UIViewController` and a `UITableViewController`.
 
 
-This is a work in progress/proof of concept; more functionality and examples (and better code) will be available in the future.
+If the pageControl is getting in your way you can hide it using `scrollContainer.pageControl.hidden = YES;`
+
 
 If you have suggestions and/or improvements please fork and submit a pull request.  This is by no means optimized but I appreciate any and all feedback.
